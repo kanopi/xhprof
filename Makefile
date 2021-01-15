@@ -1,6 +1,6 @@
 -include tests/env_make
 
-FROM ?= wodby/xhprof:latest
+FROM ?= wodby/xhprof:2.5.7
 VERSION ?= 1.0
 
 BUILD_TAG ?= $(VERSION)
